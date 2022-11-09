@@ -1,0 +1,86 @@
+.hangmanlynch{
+  position: relative;
+}
+.ground{
+  height: 10px;
+  width: 250px;
+  background: black;
+}
+.pillar{
+  height: 400px;
+  width: 10px;
+  background: black;
+  margin-left: 120px;
+}
+.hanger{
+  height: 10px;
+  width: 200px;
+  background: black;
+  margin-left: 120px;
+}
+.hangerclip{
+  height: 50px;
+  width: 10px;
+  background: black;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.head{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: 10px solid black;
+  position: absolute;
+  top: 50px;
+  right: -30px;
+}
+.body{
+  width: 10px;
+  height: 100px;
+  background: black;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+.leftarm{
+  width: 90px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 130px;
+  right: 0;
+  rotate: -45deg;
+  transform-origin: right bottom;
+}
+.rightarm{
+  width: 90px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 130px;
+  right: -80px;
+  rotate: 45deg;
+  transform-origin: left bottom;
+}
+
+.leftleg{
+  width: 100px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 210px;
+  right: 0;
+  rotate: -65deg;
+  transform-origin: right bottom;
+}
+.rightleg{
+  width: 100px;
+  height: 10px;
+  background: black;
+  position: absolute;
+  top: 210px;
+  right: -90px;
+  rotate: 65deg;
+  transform-origin: left bottom;
+}
